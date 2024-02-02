@@ -21,7 +21,7 @@ public:
             anagramGroups[sortedStr].push_back(str);
             // add the original unsorted string to the corresponding vector in the map
             // that is the trick here
-            // This way is close to the idea of Hash Collision !
+            // This way is close to the idea of Hash Collision resolution by chaining!
         }
 
         vector<vector<string>> result;
