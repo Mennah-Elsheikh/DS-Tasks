@@ -47,6 +47,8 @@ public:
 
     void left_rotate()
     {
+         if (size <= 1) // if the array is empty or have one item "We don't need to use the function :) "
+            return;    // return nothing
         int first_item = arr[0]; // assign the first item to variable => with the first iteration we lose it !
         for (int i = 1; i < size; i++)
         {
