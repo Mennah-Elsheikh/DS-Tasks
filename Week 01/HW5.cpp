@@ -64,9 +64,10 @@ public:
         {
             swap(arr[idx], arr[idx - 1]);
             // what is actually happened :)
-            //    int  temp = idx-1 ;
-            //    arr[idx-1] = value ;
-            //    arr[idx] = temp ;
+            //int temp = arr[idx-1];
+            //arr[idx-1] = arr[idx];
+            //arr[idx] = temp;
+
             return idx;
         }
     }
